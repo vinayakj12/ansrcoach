@@ -32,8 +32,8 @@ function getDataById(id) {
             console.log(data);
             document.getElementById("id").value = data._id;
             document.getElementById("name").value = data.name;
-            document.getElementById("age").value = data.age;
-            document.getElementById("city").value = data.city;
+            document.getElementById("email").value = data.age;
+            document.getElementById("phone").value = data.city;
         })
 }
 function postData() {
